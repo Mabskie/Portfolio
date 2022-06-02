@@ -1,0 +1,90 @@
+body {
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEmY9mgUDCqS9S6CPeBcZYd_2vP48VkDxnWg&usqp=CAU);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+
+.box {
+   background-color: black;
+
+   margin: 100px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-right: 500px;
+   margin-left: 500px;
+
+   padding: 100px;
+   padding-bottom: 10px;
+}
+
+.box #img {
+   height: 300px;
+   width: 200px;
+   clip-path: circle();
+   position: relative;
+   bottom: 125px;
+   right: 25px;
+}
+
+.box #word {
+   font-size: 25px;
+   color: white;
+   position: relative;
+   width: 300px;
+   bottom: 170px;
+   right: 70px;
+   font-family: cursive;
+
+}
+
+.box #word1 {
+   color: white;
+   position: relative;
+   width: 300px;
+   bottom: 175px;
+   left: 35px;
+   font-family: cursive;
+
+}
+
+.box #word2 {
+   color: white;
+   position: relative;
+   width: 300px;
+   bottom: 175px;
+   left: 30px;
+   font-family: cursive;
+
+}
+
+.box #word3 {
+   font-size: 25px;
+   color: white;
+   position: relative;
+   width: 300px;
+   bottom: 70px;
+   right: 55px;
+   font-family: cursive;
+}
+
+
+ul li {
+   list-style-type: none;
+}
+ul li a {
+   position: relative;
+   text-decoration: none;
+   color: white;
+   padding: 15px;
+   border: 1px solid;
+   bottom: 30px;
+   right: 10px ;
+
+}
+
+ul li a:hover{
+   background-color: gray;
+   color: white;
+   width: 100px;
+}
